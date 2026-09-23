@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # goit-js-hw-01
 =======
 # goit-js-hw-02
@@ -7,3 +8,6 @@
 =======
 # goit-js-hw-03
 >>>>>>> 569a18f4cceed2edb7eca1e9d382f24490cef775
+=======
+# goit-js-hw-04
+>>>>>>> 1f8d9be9c72459d150bdeef52334e84ad0fe91a6
