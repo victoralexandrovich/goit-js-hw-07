@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GoIT JS Homework 07 - DOM & Events
 JavaScript homework assignment for the GoIT course (Module 7). Topic: Document Object Model (DOM), element creation, handling user events (`input`, `submit`, `click`), and working with forms (`FormData`).
 
@@ -23,3 +24,6 @@ JavaScript homework assignment for the GoIT course (Module 7). Topic: Document O
 - **Задача 4 (Форма логіна):** Реалізовано обробку події `submit` із запобіганням перезавантаженню сторінки, перевіркою на заповнені поля, збором даних через `FormData`, виведенням результату в консоль та очищенням форми
 - **Задача 5 (Випадковий колір фону):** Реалізовано зміну кольору фону елемента `<body>` за кліком на кнопку з використанням функції `getRandomHexColor()`, із синхронним відображенням коду кольору у `span.color`
 - Перевірено форматування коду за допомогою Prettier, а також відсутність будь-яких помилок чи попереджень у консолі на живій сторінці GitHub Pages
+=======
+# goit-js-hw-07
+>>>>>>> f9cea4c2b8092092385f654aab5395bf3cac2e5e
