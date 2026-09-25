@@ -1,24 +1,7 @@
-const profile = {
-  username: 'Jacob',
-  playTime: 300,
+const nameInput = document.querySelector('#name-input');
+const nameOutput = document.querySelector('#name-output');
 
-  changeUsername(newName) {
-    this.username = newName;
-  },
-
-  updatePlayTime(hours) {
-    this.playTime += hours;
-  },
-
-  getInfo() {
-    return `${this.username} has ${this.playTime} active hours!`;
-  },
-};
-
-console.log(profile.getInfo());
-
-profile.changeUsername('Marco');
-console.log(profile.getInfo());
-
-profile.updatePlayTime(20);
-console.log(profile.getInfo());
+nameInput.addEventListener('input', (event) => {
+  const value = event.target.value.trim();
+  nameOutput.textContent = value === '' ? 'Anonymous' : value;
+});
